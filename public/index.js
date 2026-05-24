@@ -106,6 +106,31 @@ $(document).ready(function () {
       });
 
       unitInfo.append(topicsList);
+      if (unit.video) {
+    var videoCard = `
+        <div class="video-card">
+            <h4>Recommended Video</h4>
+
+            <p><strong>${unit.video.title}</strong></p>
+
+            <p>
+                Channel: ${unit.video.channel}
+            </p>
+
+            <p>
+                Language: ${unit.video.language}
+            </p>
+
+            <a href="${unit.video.url}" 
+               target="_blank" 
+               class="video-btn">
+               ▶ Watch Now
+            </a>
+        </div>
+    `;
+
+    unitInfo.append(videoCard);
+}
 
       // Show section and smooth scroll
       $(".info-section").fadeIn();
