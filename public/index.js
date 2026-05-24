@@ -108,10 +108,20 @@ $(document).ready(function () {
       unitInfo.append(topicsList);
       if (unit.video) {
     var videoCard = `
-        <div class="video-card">
-            <h4>Recommended Video</h4>
+        <div class="video-card" style="
+            margin-top:20px;
+            padding:20px;
+            border-radius:16px;
+            background:#1b0b1b;
+            border:1px solid rgba(138,209,12,0.2);
+        ">
+            <h3 style="color:#8ad10c;">
+                Recommended Video
+            </h3>
 
-            <p><strong>${unit.video.title}</strong></p>
+            <p style="margin-top:10px;">
+                <strong>${unit.video.title}</strong>
+            </p>
 
             <p>
                 Channel: ${unit.video.channel}
@@ -121,10 +131,21 @@ $(document).ready(function () {
                 Language: ${unit.video.language}
             </p>
 
-            <a href="${unit.video.url}" 
-               target="_blank" 
-               class="video-btn">
-               ▶ Watch Now
+            <a 
+                href="${unit.video.url}" 
+                target="_blank"
+                style="
+                    display:inline-block;
+                    margin-top:12px;
+                    padding:10px 16px;
+                    background:#8ad10c;
+                    color:black;
+                    border-radius:10px;
+                    text-decoration:none;
+                    font-weight:bold;
+                "
+            >
+                Watch Video
             </a>
         </div>
     `;
