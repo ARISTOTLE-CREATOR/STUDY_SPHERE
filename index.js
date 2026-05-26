@@ -87,7 +87,7 @@ $(document).ready(function () {
       const code = classes.find(c => c !== "subject-card");
 
       if (code) {
-        const redirectURL = `./public/?code=${code}`;
+        const redirectURL = `public/index.html?code=${code}`;
         window.open(redirectURL, "_self");
       }
     });
