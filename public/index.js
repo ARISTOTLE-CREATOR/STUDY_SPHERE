@@ -23,7 +23,7 @@ $(document).ready(function () {
     return;
   }
 
-  var filePath = "./info/" + codeValue + ".json";
+  var filePath = "info/" + codeValue + ".json";
 
   $.getJSON(filePath, function (data) {
     var subjectData = data[0]; // Assuming array structure
