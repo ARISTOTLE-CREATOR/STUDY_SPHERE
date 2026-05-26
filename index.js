@@ -83,8 +83,7 @@ $(document).ready(function () {
 
     // Handle Card Click (Delegated event)
     $(".subject-card").off("click").on("click", function () {
-      const classes = $(this).attr("class").split(/\s+/);
-      const code = classes.find(c => c !== "subject-card");
+      const code = $(this).attr("class").split(/\s+/)[1];
 
       if (code) {
         const redirectURL = `./public/index.html?code=${code}`;
