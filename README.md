@@ -4,7 +4,7 @@ This repository serves as the preview page for the [Server-Jntuh-R22-Notes](http
 
 ## Preview Server-Jntuh-R22-Notes
 
-[Server-Jntuh-R22-Notes](https://aristotle-creator.github.io/STUDY_SPHERE/) is a Node.js application built with Express and EJS, designed to dynamically display notes based on the data provided in `data.json`. The notes are linked from the `resources` folder, and the application allows for easy customization of the note list.
+[Server-Jntuh-R22-Notes](https://aristotle-creator.github.io/STUDY_SPHERE/) is a Node.js applicaion built with Express and EJS, designed to dynamically display notes based on the data provided in `data.json`. The notes are linked from the `resources` folder, and the application allows for easy customization of the note list.
 
 ## Preview Features
 
@@ -57,12 +57,23 @@ To contribute by adding new PDFs, follow these steps:
      ]
      ```
 
-5. **Save and Test:**
-   - Ensure the JSON syntax is correct and matches the file structure.
-   - Run the application locally or check the live preview to confirm the PDF is displayed correctly.
+## ✨ Features
 
-6. **Commit and Push:**
-   - Commit the updated files and push them to the repository.
-   - Provide a clear commit message like: `Added MSF Unit3.pdf to 2nd Year and updated MSF.json`.
+- 📚 Semester-wise subject organization
+- 🔍 Quick filtering by semester
+- 📱 Fully responsive design
+- ⚡ Fast loading static website
+- 🎨 Modern UI with smooth interactions
+- 📂 Organized academic resources
+- 🔗 Resource sharing support
+- 🏷️ Subject categorization
 
-By following these steps, you can easily contribute to the repository and help expand the available resources for JNTUH R22 Notes.
+---
+
+## 🛠️ Built With
+
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- JSON Data Management
+- GitHub Pages
