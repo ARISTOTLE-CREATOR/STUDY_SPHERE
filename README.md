@@ -1,4 +1,4 @@
-# Jntuh-R22-Notes
+ # Jntuh-R22-Notes
 
 This repository serves as the preview page for the [Server-Jntuh-R22-Notes](https://aristotle-creator.github.io/STUDY_SPHERE/) application. The live preview is accessible at [https://aristotle-creator.github.io/STUDY_SPHERE/](https://aristotle-creator.github.io/STUDY_SPHERE/).
 
